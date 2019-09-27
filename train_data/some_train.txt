@@ -1,0 +1,5 @@
+id	subtask_a	tweet
+86426	OFF	@USER She should ask a few native Americans what their take on this is.
+90194	OFF	@USER @USER Go home you’re :( drunk!!! @USER #MAGA #Trump2020 👊🇺🇸👊 URL
+16820	NOT	Amazon is investigating Chinese employees who are selling internal data to third-party sellers looking for an edge in the competitive marketplace. URL #Amazon #MAGA #KAG #CHINA #TCOT
+62688	OFF	'"@USER Someone should''veTaken"" this piece of shit to a volcano. 😂"""'
