@@ -1,0 +1,211 @@
+This file contains details for all of your submissions.
+
+Your best runs were:
+	* Sub-task A, sandro272 CodaLab #528117
+	* Sub-task B, sandro272 CodaLab #533291
+	* Sub-task C, sandro272 CodaLab #536705
+
+You will find detailed results for all your submissions below.
+
+====
+
+Sub-task A, sandro272 CodaLab #528015
+
+# SUBMITTED FILE: subtask_a_submission_stacking.csv
+
+# DESCRIPTION:
+In this subtask_a, we first made a simple processing of the data, such as converting the emoticon that often appear in the data text into English phrases, restoring English abbreviations, etc.,
+and finally retaining only English words and figure. 
+Then in terms of model selection, I chose bidirectional LSTM, LSTM with attention mechanism, etc., and then ensemble one of these models.
+
+# RESULTS:
+
+Macro-F1: 0.725795407622
+Overall Accuracy: 0.787209302326
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        NOT     0.8377    0.8742    0.8556       620
+        OFF     0.6338    0.5625    0.5960       240
+
+avg / total     0.7808    0.7872    0.7831       860
+
+
+====
+
+Sub-task A, sandro272 CodaLab #528117
+
+# SUBMITTED FILE: subtask_a_submission_voting.csv
+
+# DESCRIPTION:
+In this subtask_a, we first made a simple processing of the data, such as converting the emoticon that often appear in the data text into English phrases, restoring English abbreviations, etc.,
+and finally retaining only English words and figure. 
+Then in terms of model selection, I chose bidirectional LSTM, LSTM with attention mechanism, etc., and then ensemble one of these models.
+
+# RESULTS:
+
+Macro-F1: 0.781733353253
+Overall Accuracy: 0.836046511628
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        NOT     0.8580    0.9258    0.8906       620
+        OFF     0.7592    0.6042    0.6729       240
+
+avg / total     0.8304    0.8360    0.8298       860
+
+
+====
+
+Sub-task A, sandro272 CodaLab #528280
+
+# SUBMITTED FILE: subtask_a_submission_b.csv
+
+# DESCRIPTION:
+In this subtask_a, we first made a simple processing of the data, such as converting the emoticons that often appear in the data text into English phrases, restoring English abbreviations, etc.,
+and finally retaining only English words and figure. 
+Then in terms of model selection, I chose the bidirectional LSTM, LSTM with attention mechanism, etc., and then ensemble these models.
+
+# RESULTS:
+
+Macro-F1: 0.76672385405
+Overall Accuracy: 0.817441860465
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        NOT     0.8612    0.8903    0.8755       620
+        OFF     0.6895    0.6292    0.6580       240
+
+avg / total     0.8133    0.8174    0.8148       860
+
+
+====
+
+Sub-task B, sandro272 CodaLab #533291
+
+# SUBMITTED FILE: subtask_b_submission_voting.csv
+
+# DESCRIPTION:
+In this subtask_b, we first made a simple processed of the data, such as converted the emoticons that often appear in the data text into English phrases, restored English abbreviations, etc.,
+and finally retained only English words and figure. 
+Then in terms of model selection, I chose bidirectional LSTM,GRU,LSTM with attention mechanism, etc., and then we are used the voting method to ensemble these models.
+
+# RESULTS:
+
+Macro-F1: 0.681146584001
+Overall Accuracy: 0.8625
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        TIN     0.9327    0.9108    0.9216       213
+        UNT     0.4062    0.4815    0.4407        27
+
+avg / total     0.8735    0.8625    0.8675       240
+
+
+====
+
+Sub-task B, sandro272 CodaLab #533311
+
+# SUBMITTED FILE: attention_submission.csv
+
+# DESCRIPTION:
+In this subtask_b, we first made a simple processed of the data, such as converted the emoticons that often appear in the data text into English phrases, restored English abbreviations, etc.,
+and finally retained only English words and figure. 
+Then in terms of model selection, I only chose a bidirectional LSTM with attention mechanism.
+
+# RESULTS:
+
+Macro-F1: 0.62481962482
+Overall Accuracy: 0.783333333333
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        TIN     0.9399    0.8075    0.8687       213
+        UNT     0.2807    0.5926    0.3810        27
+
+avg / total     0.8657    0.7833    0.8138       240
+
+
+====
+
+Sub-task B, sandro272 CodaLab #533313
+
+# SUBMITTED FILE: stacked_bi_lstm_submission.csv
+
+# DESCRIPTION:
+In this subtask_b, we first made a simple processed of the data, such as converted the emoticons that often appear in the data text into English phrases, restored English abbreviations, etc.,
+and finally retained only English words and figure. 
+Then in terms of model selection, I only chose a stacked bidirectional LSTM.
+
+# RESULTS:
+
+Macro-F1: 0.653012048193
+Overall Accuracy: 0.8375
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        TIN     0.9307    0.8826    0.9060       213
+        UNT     0.3421    0.4815    0.4000        27
+
+avg / total     0.8645    0.8375    0.8491       240
+
+
+====
+
+Sub-task C, sandro272 CodaLab #536705
+
+# SUBMITTED FILE: subtask_C_submission.csv
+
+# DESCRIPTION:
+In this subtask_c, we first made a simple processed of the data, such as converted the emoticons that often appear in the data text into English phrases, restored English abbreviations, etc.,
+and finally retained only English words and figure. 
+Then in terms of model selection, I chose bidirectional LSTM,GRU,LSTM with attention mechanism, etc., and then we are used the voting method to ensemble these models.
+
+# RESULTS:
+
+Macro-F1: 0.621218830205
+Overall Accuracy: 0.708920187793
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        GRP     0.7037    0.7308    0.7170        78
+        IND     0.7778    0.8400    0.8077       100
+        OTH     0.4167    0.2857    0.3390        35
+
+avg / total     0.6913    0.7089    0.6975       213
+
+
+====
+
+Sub-task C, sandro272 CodaLab #537472
+
+# SUBMITTED FILE: subtask_C_submission_voting_terminal.csv
+
+# DESCRIPTION:
+In this subtask_c, we first made a simple processed of the data, such as converted the emoticons that often appear in the data text into English phrases, restored English abbreviations, etc.,
+and finally retained only English words and figure. 
+Then in terms of model selection, I chose bidirectional LSTM,GRU,capsulnet,LSTM with attention mechanism, etc., and then we are used the voting method to ensemble these models.
+
+# RESULTS:
+
+Macro-F1: 0.537721089771
+Overall Accuracy: 0.666666666667
+
+Per-class performance:
+             precision    recall  f1-score   samples
+
+        GRP     0.6395    0.7051    0.6707        78
+        IND     0.7155    0.8300    0.7685       100
+        OTH     0.3636    0.1143    0.1739        35
+
+avg / total     0.6299    0.6667    0.6350       213
+
+
